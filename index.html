@@ -1,0 +1,263 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Riachuelo
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .header img {
+            height: 40px;
+        }
+        .header input {
+            width: 300px;
+            padding: 8px;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+        }
+        .header .icons {
+            display: flex;
+            align-items: center;
+        }
+        .header .icons i {
+            margin-left: 20px;
+            font-size: 20px;
+            color: #333;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            background-color: #f8f8f8;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+        .filters {
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            background-color: #fff;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .filters div {
+            margin: 0 10px;
+            position: relative;
+        }
+        .filters div::after {
+            content: '\f0d7';
+            font-family: 'FontAwesome';
+            position: absolute;
+            right: -15px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .filters div span {
+            cursor: pointer;
+        }
+        .product-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .product {
+            width: 220px;
+            margin: 10px;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            overflow: hidden;
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        .product .details {
+            padding: 10px;
+        }
+        .product .details .price {
+            font-size: 18px;
+            font-weight: 700;
+            color: #333;
+        }
+        .product .details .description {
+            font-size: 14px;
+            color: #666;
+            margin: 10px 0;
+        }
+        .product .details .colors {
+            display: flex;
+            justify-content: center;
+            margin: 10px 0;
+        }
+        .product .details .colors div {
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            margin: 0 5px;
+            border: 1px solid #e0e0e0;
+        }
+        .product .details .colors .blue { background-color: #000080; }
+        .product .details .colors .beige { background-color: #f5f5dc; }
+        .product .details .colors .black { background-color: #000; }
+        .product .details .colors .white { background-color: #fff; }
+        .product .details .colors .grey { background-color: #808080; }
+  </style>
+ </head>
+ <body>
+  <header class="header">
+   <img alt="Riachuelo logo" height="40" src="https://storage.googleapis.com/a1aa/image/eaqKEnnLNIRhGawcWC0Ws25p3yx02wbxWI3HKsj7gf6P6O3TA.jpg" width="100"/>
+   <input placeholder="O que você está procurando?" type="text"/>
+   <div class="icons">
+    <i class="fas fa-map-marker-alt">
+    </i>
+    <i class="fas fa-user">
+    </i>
+    <i class="fas fa-heart">
+    </i>
+    <i class="fas fa-shopping-bag">
+    </i>
+   </div>
+  </header>
+  <nav class="nav">
+   <a href="#">
+    SAIA
+   </a>
+   <a href="#">
+    VESTIDOS
+   </a>
+   <a href="#">
+    CALÇAS
+   </a>
+   <a href="#">
+    BLUSAS
+   </a>
+   <a href="#">
+    CROPPED
+   </a>
+   <a href="#">
+    CALÇADOS
+   </a>
+   <a href="#">
+    ACESSÓRIOS
+   </a>
+  
+   
+  </nav>
+  
+  <div class="product-list">
+   <div class="product">
+    <img alt="Model wearing black pants and a black and white top" height="300" src="https://storage.googleapis.com/a1aa/image/Bhrf3awfc8oGSkKDQfFshzU8Kg9YKsap76JJ6e9RKKE3o7cPB.jpg" width="220"/>
+    <div class="details">
+     <div class="description">
+      Calça Feminina Alfaiataria Luka Com Cinto Fino - Preto | AK By Riachuelo
+     </div>
+     <div class="price">
+      R$ 169,90
+     </div>
+     <div>
+    
+     </div>
+     <div class="colors">
+      <div class="blue">
+      </div>
+      <div class="grey">
+      </div>
+      <div class="white">
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="product">
+    <img alt="Model wearing beige pants and a black top" height="300" src="https://storage.googleapis.com/a1aa/image/QR1nJVfwPTXdZyoWmmHSdK7o1RfJvyMsnaaIh9UpgJEJ6O3TA.jpg" width="220"/>
+    <div class="details">
+     <div class="description">
+      Calça Feminina Alfaiataria Luka Com Cinto Fino - Bege Claro | AK By Riachuelo
+     </div>
+     <div class="price">
+      R$ 169,90
+     </div>
+     <div>
+      Entregue por Riachuelo
+     </div>
+     <div class="colors">
+      <div class="blue">
+      </div>
+      <div class="grey">
+      </div>
+      <div class="white">
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="product">
+    <img alt="Model wearing navy blue pants and a white top" height="300" src="https://storage.googleapis.com/a1aa/image/foIgPNUPvJUFYCIrV79tIelV8BuQAm1rHAG5UFVTfJ0U0dunA.jpg" width="220"/>
+    <div class="details">
+     <div class="description">
+      Calça Feminina Alfaiataria Luka Com Cinto Fino - Azul-Marinho | AK By Riachuelo
+     </div>
+     <div class="price">
+      R$ 169,90
+     </div>
+     <div>
+      Entregue por Riachuelo
+     </div>
+     <div class="colors">
+      <div class="blue">
+      </div>
+      <div class="grey">
+      </div>
+      <div class="white">
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="product">
+    <img alt="Model wearing black pants and a white one-shoulder top" height="300" src="https://storage.googleapis.com/a1aa/image/Wz0Zxs6N8BKGGZy0W1YjOeM0nS5LECMwBn7lx1srsz8Fdn7JA.jpg" width="220"/>
+    <div class="details">
+     <div class="description">
+      Calça Feminina Alfaiataria Aurora - Preto | AK By Riachuelo
+     </div>
+     <div class="price">
+      R$ 199,90
+     </div>
+     <div>
+      Entregue por Riachuelo
+     </div>
+     <div class="colors">
+      <div class="blue">
+      </div>
+      <div class="beige">
+      </div>
+      <div class="black">
+      </div>
+      <div class="white">
+      </div>
+      <div class="grey">
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
